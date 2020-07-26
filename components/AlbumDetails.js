@@ -48,45 +48,22 @@ const styles = StyleSheet.create({
         backgroundColor: '#F5FCFF',
         padding:20
     },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10
+    albumTitle :{
+        fontSize:20,
+        fontWeight:'bold',
+        marginBottom:20
     },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5
-  },
-  artist_card: {
-    width: '100%' ,
-    borderStyle:'solid',
-    borderWidth:1,
-    borderColor:'black',
-    padding:20,
-    color:'black',
-  },
-  search_btn: {
-    display:'flex',
-    margin:15,
-    marginTop:15,
-  },
-  albumTitle :{
-      fontSize:20,
-      fontWeight:'bold',
-      marginBottom:20
-  },
-  albumCard :{
-      flexDirection:'row',
-      alignItems:'center',
-      backgroundColor:'white',
-      padding:20,
-      marginBottom:10
+    albumCard :{
+        flexDirection:'row',
+        alignItems:'center',
+        backgroundColor:'white',
+        padding:20,
+        marginBottom:10
 
-  },
-  albumCard_img: {
-    marginRight:30,
-    width: 50,
-    height: 50
-  }
+    },
+    albumCard_img: {
+        marginRight:30,
+        width: 50,
+        height: 50
+    }
 });

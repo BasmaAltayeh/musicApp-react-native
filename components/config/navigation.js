@@ -1,14 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View, ScrollView, TouchableOpacity, TextInput, Image ,Text, Button } from 'react-native';
-import {Root, Container, Header, Left, Body, Right, Item, Input, Icon, Title, Segment, Content} from 'native-base';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import Tracks from '../Tracks';
 import Artists from '../Artists';
 import ArtistDetails from '../ArtistDetails'
-import albums from '../Albums';
-import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import Albums from '../Albums';
 import AlbumDetails from '../AlbumDetails'
 

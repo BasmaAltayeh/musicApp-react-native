@@ -20,6 +20,7 @@ export default function ArtistDetails({route,navigation}) {
         })
         .catch(function (error) {
             console.log(error);
+            setErrors(error);
         })
     }
     function albumsHandler() {
